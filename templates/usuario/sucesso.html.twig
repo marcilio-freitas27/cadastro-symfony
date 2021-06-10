@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block topo %}
+    <div class="topo">
+        <img src="">
+    </div>
+{% endblock %}
+
+
+{% block title %}Cadastro de usuários{% endblock %}
+
+{# formulário de casdastro de usuário #}
+{% block body %}
+    <p class="msgSucesso"><strong>{{ fulano }}</strong>, cadastrado com sucesso!</p>
+    <a href="{{ url('web_usuario_index')}}">Voltar</a>
+{% endblock %}

@@ -1,0 +1,6 @@
+# #nome da rota: 
+# index:
+# #reponde ao caminho raiz
+#     path: /
+#     # aponta para esse controler usando o método index
+#     controller: App\Controller\DefaultController::index

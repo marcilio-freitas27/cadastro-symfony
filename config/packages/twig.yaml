@@ -1,0 +1,3 @@
+twig:
+    # caminho padrão, pode trocar: diretorios nomeados
+    default_path: '%kernel.project_dir%/templates'
