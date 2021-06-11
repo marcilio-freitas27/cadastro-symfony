@@ -2,6 +2,8 @@
 
 PHP avançado com o framework symfony. Configurações simples de rotas web e api usando annotations, migrations com orm doctrine e framework twig.
 
+Existem alguns comentários e comandos comentados para outros testes. Código para quer está conhecendo o framework, para estudos.
+
 ## Configurações - Symfony 
 
 ## Instalação sem instalador(local)

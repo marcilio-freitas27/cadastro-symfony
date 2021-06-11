@@ -48,17 +48,17 @@ class UsuarioController extends AbstractController
         dump($data);
         
         // inserir no banco, entity
-        /*$doctrine = $this->getDoctrine()->getManager();
+        $doctrine = $this->getDoctrine()->getManager();
         //persistir, inserir, preparar
         $doctrine->persist($usuario);
         // inserir de fato
         $doctrine->flush();
 
         dump($usuario);
-        */
+        
         //
         //if ($doctrine->contains($usuario))
-        /*if( $usuario->getId() )
+        if( $usuario->getId() )
         {
             return $this->render("usuario/sucesso.html.twig",[
                 "fulano" =>$data['nome']
@@ -67,7 +67,7 @@ class UsuarioController extends AbstractController
             return $this->render("usuario/erro.html.twig",[
                 "fulano" =>$data['nome']
             ]);
-        }*/
+        }
 
         return new Response("Implementar gravação no banco.");
     }
